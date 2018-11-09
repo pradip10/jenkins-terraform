@@ -2,7 +2,7 @@ def workspace;
 
 node
 {
-  stage('printing Dockerfile')
+  stage('printing terraform file')
 {
     sh 'git init .'
     sh 'pwd'
